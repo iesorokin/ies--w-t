@@ -5,7 +5,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/ies--w-t.jar
+ARG JAR_FILE=target/t-0.1-SNAPSHOT.jar
 
 # cd /opt/app
 WORKDIR /opt/app
